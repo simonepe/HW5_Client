@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.simone.client.Startup.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/scoreField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        app:layout_constraintEnd_toStartOf="@+id/buttonQuit"
+        app:layout_constraintStart_toEndOf="@+id/buttonNewGame"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Score"
+        app:layout_constraintEnd_toStartOf="@+id/buttonQuit"
+        app:layout_constraintStart_toEndOf="@+id/buttonNewGame"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Connect"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="New Game"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Quit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Press Connect to start playing!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNewGame" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="191dp" />
+
+            <Button
+                android:id="@+id/buttonB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="199dp" />
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/buttonE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/buttonF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/buttonG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonH"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/buttonI"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/buttonJ"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/buttonK"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/buttonL"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="L" />
+
+            <Button
+                android:id="@+id/buttonM"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/buttonN"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonO"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/buttonP"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="P" />
+
+            <Button
+                android:id="@+id/buttonQ"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/buttonR"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/buttonS"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/buttonT"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/buttonU"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="U" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonV"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/buttonW"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/buttonX"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/buttonY"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/buttonZ"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Z" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Guess entire word:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <EditText
+        android:id="@+id/guessWord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/guessWordButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Make guess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guessWord"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imgWon"
+            android:layout_width="match_parent"
+            android:layout_height="522dp"
+            android:src="@drawable/won"
+            android:visibility="gone"
+            tools:layout_editor_absoluteY="510dp" />
+        <ImageView
+            android:id="@+id/imgLost"
+            android:layout_width="match_parent"
+            android:layout_height="522dp"
+            android:src="@drawable/lost"
+            android:visibility="gone"
+            tools:layout_editor_absoluteY="510dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
